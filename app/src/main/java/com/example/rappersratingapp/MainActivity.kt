@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         rappers.add(Rapper(8, "Getoar", "Aliu", "Getinjo", "Real", 144000))
         rappers.add(Rapper(9, "Kljedi", "Dogjani", "Finem", "Bling Bling", 130000))
         rappers.add(Rapper(10, "Elvana", "Gjata", "Elvana", "Njesoj", 123000))
+        rappers.add(Rapper(11, "Dafina", "Zeqiri", "Dafina", "Dafine Moj", 100000))
 
 
         // Add more rappers data here
