@@ -5,21 +5,18 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Button to filter the top rappers by ranking -->
     <Button
         android:id="@+id/topButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Filter Top 3 by Ranking" />
 
-    <!-- Button to filter the bottom rappers by salary -->
     <Button
         android:id="@+id/bottomButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Filter Bottom 3 by Salary" />
 
-    <!-- ListView to display the rappers -->
     <ListView
         android:id="@+id/rappersListView"
         android:layout_width="match_parent"
