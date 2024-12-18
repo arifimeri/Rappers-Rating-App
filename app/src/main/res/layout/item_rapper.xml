@@ -2,8 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/rapperImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/default_rapper" /> <LinearLayout  android:layout_width="0dp"  android:layout_height="wrap_content"
+    android:layout_weight="1"  android:orientation="vertical">
 
     <TextView
         android:id="@+id/rankText"
@@ -25,4 +33,5 @@
         android:layout_height="wrap_content"
         android:text="Famous Song"
         android:textSize="14sp" />
+</LinearLayout>
 </LinearLayout>

@@ -29,17 +29,17 @@ class MainActivity : AppCompatActivity() {
         bottomButton = findViewById(R.id.bottomButton)
 
         // Sample rappers data
-        rappers.add(Rapper(1, "Eminem", "Mathers", "Eminem","Lose Yourself", 100000))
-        rappers.add(Rapper(2, "Jay-Z", "Carter", "Jay-Z", "Empire State of Mind", 80000))
-        rappers.add(Rapper(3, "Rigels", "Rajku", "Noizy","Toto", 300000))
-        rappers.add(Rapper(4, "Arkimed", "Lushaj", "Stresi", "Loco", 240000))
-        rappers.add(Rapper(5, "Melida", "Ademi", "Melinda", "Alkool", 200000))
-        rappers.add(Rapper(6, "Doruntina", "Shala", "Tayna", "Edhe Ti", 180000))
-        rappers.add(Rapper(7, "Gramoz" ,"Aliu", "Mozzik", "Ti amo", 165000))
-        rappers.add(Rapper(8, "Getoar", "Aliu", "Getinjo", "Real", 144000))
-        rappers.add(Rapper(9, "Kljedi", "Dogjani", "Finem", "Bling Bling", 130000))
-        rappers.add(Rapper(10, "Elvana", "Gjata", "Elvana", "Njesoj", 123000))
-        rappers.add(Rapper(11, "Dafina", "Zeqiri", "Dafina", "Dafine Moj", 100000))
+        rappers.add(Rapper(1, "Eminem", "Mathers", "Eminem","Lose Yourself", 100000, imageUrl = R.drawable.eminem))
+        rappers.add(Rapper(2, "Jay-Z", "Carter", "Jay-Z", "Empire State of Mind", 80000, imageUrl = R.drawable.jayz))
+        rappers.add(Rapper(3, "Rigels", "Rajku", "Noizy","Toto", 300000, imageUrl = R.drawable.rigels))
+        rappers.add(Rapper(4, "Arkimed", "Lushaj", "Stresi", "Loco", 240000, R.drawable.arkimed))
+        rappers.add(Rapper(5, "Melida", "Ademi", "Melinda", "Alkool", 200000, R.drawable.melinda))
+        rappers.add(Rapper(6, "Doruntina", "Shala", "Tayna", "Edhe Ti", 180000, R.drawable.tayna))
+        rappers.add(Rapper(7, "Gramoz" ,"Aliu", "Mozzik", "Ti amo", 165000, imageUrl = R.drawable.mozzik))
+        rappers.add(Rapper(8, "Getoar", "Aliu", "Getinjo", "Real", 144000, imageUrl = R.drawable.getinjo))
+        rappers.add(Rapper(9, "Kljedi", "Dogjani", "Finem", "Bling Bling", 130000, imageUrl = R.drawable.finem))
+        rappers.add(Rapper(10, "Elvana", "Gjata", "Elvana", "Njesoj", 123000, imageUrl = R.drawable.elvana))
+        rappers.add(Rapper(11, "Dafina", "Zeqiri", "Dafina", "Dafine Moj", 100000, imageUrl = R.drawable.dafina))
 
 
         // Add more rappers data here
