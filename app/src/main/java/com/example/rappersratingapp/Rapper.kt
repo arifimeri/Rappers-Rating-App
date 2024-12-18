@@ -6,6 +6,7 @@ data class Rapper(
     val rank: Int,
     val firstName: String,
     val lastName: String,
+    val nickName: String,
     val famousSong: String,
     val salary: Int
 ) : Serializable
